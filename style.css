@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-top: 20px;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    border: 1px solid rgb(142, 58, 58);
+    margin: auto;
+    color: white;
+    background-color: black;
+    border-radius: 12px;
+    font-family: "Asap", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.display{
+    height: 160px;
+    border-bottom: 1px solid rgb(76, 70, 70);
+    position: relative;
+}
+
+.display .p-op{
+    position: absolute;
+    right: 5px;
+    bottom: 30px;
+}
+
+.display .p-result{
+    position: absolute;
+    right: 5px;
+    bottom: 15px;
+    padding-top: 5px;
+}
+
+/* Div for math function*/
+
+.math-function{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.btn{
+    width: 60px;
+    height: 60px;
+    margin-left: 45px;
+    margin-bottom:9px;
+    margin-top: 9px;
+    background-color: rgb(21, 21, 21);
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.zero{
+    width: 165px;
+}
+.operator{
+    background-color: rgb(14, 176, 176);
+}
+.plus{
+    background-color: rgb(67, 66, 66);
+}
