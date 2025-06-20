@@ -25,22 +25,44 @@ body{
 }
 
 .display{
-    height: 160px;
+    height: 260px;
     border-bottom: 1px solid rgb(76, 70, 70);
     position: relative;
 }
-
+.display .val1{
+    position: absolute;
+    right: 5px;
+    top: 8px;
+    font-weight: 300;
+    font-size: 18px;
+}
+.display .ops{
+    position: absolute;
+    left: 5px;
+    top: 15px;
+    font-weight: 800;
+    font-size: 18px;
+    color: bisque;
+}
+.display .val2{
+    position: absolute;
+    right: 5px;
+    top: 30px;
+    font-weight: 300;
+    font-size: 18px;
+}
 .display .p-op{
     position: absolute;
     right: 5px;
-    bottom: 30px;
+    top: 50px;
 }
 
-.display .p-result{
+.display .result{
     position: absolute;
     right: 5px;
     bottom: 15px;
     padding-top: 5px;
+    color: rgb(14, 176, 176);
 }
 
 /* Div for math function*/
@@ -62,6 +84,9 @@ body{
     padding-top: 20px;
     border-radius: 12px;
     cursor: pointer;
+}
+#clean{
+    background-color: brown;
 }
 .zero{
     width: 165px;
